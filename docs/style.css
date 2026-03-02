@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#msg {
+  margin-top: 16px;
+  color: #555;
+}
