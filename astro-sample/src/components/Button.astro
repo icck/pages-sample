@@ -1,0 +1,25 @@
+---
+// propsで外から値を受け取れる
+const { label } = Astro.props;
+---
+
+<button id="btn">{label}</button>
+<p id="msg"></p>
+
+<script>
+  document.getElementById('btn').addEventListener('click', () => {
+    document.getElementById('msg').textContent = 'ボタンが押されました！';
+  });
+</script>
+
+<style>
+  button {
+    padding: 10px 24px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+</style>

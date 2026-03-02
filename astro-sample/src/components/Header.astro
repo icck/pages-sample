@@ -1,0 +1,23 @@
+---
+// ここはサーバー側で動くJS（ビルド時に実行される）
+const siteName = "My Site";
+---
+
+<header>
+  <nav>
+    <a href="/">{siteName}</a>
+    <a href="/about">About</a>
+  </nav>
+</header>
+
+<style>
+  header {
+    background: #333;
+    padding: 16px 24px;
+  }
+  a {
+    color: white;
+    margin-right: 16px;
+    text-decoration: none;
+  }
+</style>
